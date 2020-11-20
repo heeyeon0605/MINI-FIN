@@ -7,14 +7,14 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#F1F1EF"
+        android:background="@color/colorBackground"
         android:gravity="center"
         android:orientation="vertical">
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="220dp"
-            android:background="@drawable/radius4"
+            android:background="@drawable/radius3"
             android:backgroundTint="@color/colorPrimaryDark"
             android:orientation="vertical">
 
@@ -22,11 +22,11 @@
 
         <LinearLayout
             android:layout_width="375dp"
-            android:layout_height="577dp"
+            android:layout_height="600dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp"
-            android:background="@drawable/radius3"
+            android:background="@drawable/radius2"
             android:backgroundTint="#FFFFFF"
             android:gravity="center"
             android:orientation="vertical">
@@ -54,6 +54,7 @@
                 android:layout_width="315dp"
                 android:layout_height="50dp"
                 android:layout_marginBottom="40dp"
+                android:textColor="#000000"
                 android:backgroundTint="@color/colorPastel"
                 android:ems="10"
                 android:inputType="textEmailAddress" />
@@ -69,6 +70,7 @@
                 android:id="@+id/signin_pw"
                 android:layout_width="315dp"
                 android:layout_height="50dp"
+                android:textColor="#000000"
                 android:backgroundTint="@color/colorPastel"
                 android:ems="10"
                 android:inputType="textPassword" />
@@ -81,7 +83,7 @@
                 android:layout_marginTop="0dp"
                 android:text="Forgot your password?"
                 android:textAllCaps="false"
-                android:textColor="#8B80F8"
+                android:textColor="@color/colorPastel"
                 android:textSize="10sp" />
 
             <Button
@@ -89,7 +91,7 @@
                 android:layout_width="175dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="80dp"
-                android:background="@drawable/radius3"
+                android:background="@drawable/radius2"
                 android:backgroundTint="@color/colorPrimaryDark"
                 android:text="LOGIN"
                 android:textColor="#ffffff" />
@@ -101,7 +103,7 @@
                 android:layout_marginTop="10dp"
                 android:text="Don't have an account? Sign up"
                 android:textAllCaps="false"
-                android:textColor="#8B80F8"
+                android:textColor="@color/colorPastel"
                 android:textSize="10sp" />
 
         </LinearLayout>

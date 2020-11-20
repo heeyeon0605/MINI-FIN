@@ -2,8 +2,10 @@
 <resources>
 
     <color name="colorPrimary">#731DF8</color>
-    <color name="colorPrimaryDark">#310AC0</color>
+    <color name="colorPrimaryDark">#731DF8</color>
+    <!--<color name="colorPrimaryDark">#310AC0</color>-->
     <color name="colorAccent">#D9C6EB</color>
-    <color name="colorPastel">#000000</color>
+    <color name="colorPastel">#8B80F8</color>
+    <color name="colorBackground">#F1F1EF</color>
 
 </resources>
