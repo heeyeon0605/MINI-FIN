@@ -18,6 +18,8 @@ import androidx.navigation.ui.NavigationUI;
 import com.example.kustim_v01.popup.PopupActivity;
 import com.example.kustim_v01.popup.PopupActivity2;
 import com.example.kustim_v01.popup.PopupActivity3;
+import com.example.kustim_v01.popup.PopupActivity4;
+import com.example.kustim_v01.popup.PopupActivity5;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -34,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications, R.id.navigation_option)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+        //NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
 
@@ -70,6 +72,16 @@ public class MainActivity extends AppCompatActivity {
     public void mOnPopupClick3(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, PopupActivity3.class);
+        startActivityForResult(intent, 1);
+    }
+    public void mOnPopupClick4(View v) {
+        //데이터 담아서 팝업(액티비티) 호출
+        Intent intent = new Intent(this, PopupActivity4.class);
+        startActivityForResult(intent, 1);
+    }
+    public void mOnPopupClick5(View v) {
+        //데이터 담아서 팝업(액티비티) 호출
+        Intent intent = new Intent(this, PopupActivity5.class);
         startActivityForResult(intent, 1);
     }
     public boolean onCreateOptionsMenu(Menu menu) {

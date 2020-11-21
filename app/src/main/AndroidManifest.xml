@@ -32,11 +32,15 @@
         <activity android:name=".PromiseRegisterActivity"/>
         <activity android:name=".MoneyRegisterActivity"/>
         <activity android:name=".WakeupRegisterActivity"/>
+        <activity android:name=".CleanRegisterActivity"/>
+        <activity android:name=".HealthRegisterActivity"/>
         <activity android:name=".ConfigActivity"/>
         <activity android:name=".LocationActivity"/>
         <activity android:name=".popup.PopupActivity" android:theme="@android:style/Theme.Dialog"/>
         <activity android:name=".popup.PopupActivity2" android:theme="@android:style/Theme.Dialog"/>
         <activity android:name=".popup.PopupActivity3" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".popup.PopupActivity4" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".popup.PopupActivity5" android:theme="@android:style/Theme.Dialog"/>
     </application>
 
 </manifest>

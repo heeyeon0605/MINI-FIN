@@ -22,21 +22,20 @@
 
         <LinearLayout
             android:layout_width="375dp"
-            android:layout_height="600dp"
+            android:layout_height="610dp"
             android:layout_gravity="center"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="30dp"
+            android:layout_marginTop="15dp"
             android:background="@drawable/radius2"
             android:backgroundTint="#FFFFFF"
             android:gravity="center"
             android:orientation="vertical">
 
-            <TextView
+            <ImageView
                 android:id="@+id/textView17"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
                 android:layout_marginBottom="60dp"
-                android:text="LOGIN"
+                android:src="@drawable/logo2"
                 android:textAlignment="center"
                 android:textColor="@color/colorPastel"
                 android:textSize="20dp"

@@ -30,12 +30,13 @@
                     android:layout_marginTop="15dp"
                     android:src="@drawable/search" />
             </LinearLayout>
+
             <TextView
                 android:id="@+id/textView28"
                 android:layout_width="match_parent"
                 android:layout_height="97dp"
                 android:gravity="center"
-                android:text="이번주\n성실왕이 되어라"
+                android:text="이번 주\n성실왕이 되어라"
                 android:textColor="#222"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -75,8 +76,9 @@
                     android:id="@+id/textView13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:text="    7일 안에 미션 완료하기"
+                    android:text="7일 안에 미션 완료하기"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -114,6 +116,7 @@
                     android:layout_width="357dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
+                    android:layout_marginRight="30dp"
                     android:layout_weight="1"
                     android:text="7일 동안 7시 기상 3회 이상 성공하기"
                     android:textColor="#000000"
@@ -125,7 +128,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -151,8 +153,9 @@
                     android:id="@+id/textView15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:text="    미션 성공 시, 신용 점수 +5점"
+                    android:text="미션 성공 시, 신용 점수 +5점"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 

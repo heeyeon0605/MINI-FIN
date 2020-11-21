@@ -21,7 +21,6 @@ public class DashboardFragment extends Fragment {
     TextView dashboard_first;
     TextView dashboard_second;
     TextView dashboard_third;
-    TextView dashboard_fourth;
     View root;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -30,8 +29,7 @@ public class DashboardFragment extends Fragment {
         dashboard_first =root.findViewById(R.id.dashboard_first);
         dashboard_second =root.findViewById(R.id.dashboard_second);
         dashboard_third = root.findViewById(R.id.dashboard_third);
-        dashboard_fourth =root.findViewById(R.id.dashboard_fourth);
-        dashboard_fourth.setText("바꼈냐") ;
+
         if(User.promise==true &User.money==false&&User.wakeup==false) {
             dashboard_first.setText("이번 주 약속 하나를 달성하세요!");
         }

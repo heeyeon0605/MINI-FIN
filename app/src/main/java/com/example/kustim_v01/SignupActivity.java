@@ -63,7 +63,7 @@ public class SignupActivity extends AppCompatActivity {
         final String name = ((EditText) findViewById(R.id.signup_name)).getText().toString();
         final String phone = ((EditText) findViewById(R.id.signup_phone)).getText().toString();
         final String uid = (String) mAuth.getCurrentUser().getUid();
-
+        final int score = 0;
         if (email.length() > 0 && password.length() > 0 && passwordCheck.length() > 0) {
             if (password.equals(passwordCheck)) {
                 mAuth.createUserWithEmailAndPassword(email, password)
@@ -79,10 +79,10 @@ public class SignupActivity extends AppCompatActivity {
                                     user.put("phone", phone);
                                     user.put("email",email);
                                     user.put("uid", uid);
+                                    user.put("score",score);
                                     user.put("promise",false);
                                     user.put("money",false);
                                     user.put("wakeup",false);
-
                                     db.collection("users")
                                             .add(user)
                                             .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
@@ -91,7 +91,6 @@ public class SignupActivity extends AppCompatActivity {
                                                     Log.d(TAG, "DocumentSnapshot added with ID: " + documentReference.getId());
                                                     a=documentReference.getId();
                                                     Log.d(TAG, "함수 속에서의 a는??? :  " + a);
-                                                    User2 user2 = new User2(a);
 
                                                     FirebaseFirestore db2 = FirebaseFirestore.getInstance();
                                                     db2.collection("users").document(a).update("a",a);

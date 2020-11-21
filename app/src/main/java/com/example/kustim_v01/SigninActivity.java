@@ -81,7 +81,7 @@ public class SigninActivity extends AppCompatActivity implements View.OnClickLis
                                             @Override
                                             public void onComplete(@NonNull Task<QuerySnapshot> task) {
                                                 if (!task.isSuccessful()) {
-                                                    Log.d("gogo", "Error getting documents: ", task.getException());
+                                                    Log.d("No", "Error getting documents: ", task.getException());
                                                 } else {
                                                     for (QueryDocumentSnapshot document : task.getResult()) {
                                                         User user = new User();
@@ -89,11 +89,10 @@ public class SigninActivity extends AppCompatActivity implements View.OnClickLis
                                                         user.uid = document.getData().get("uid").toString();
                                                         user.name = document.getData().get("name").toString();
                                                         user.a = document.getData().get("a").toString();
+                                                        user.score = document.getData().get("score").toString();
                                                         user.promise = (boolean)document.getData().get("promise");
                                                         user.money = (boolean)document.getData().get("money");
                                                         user.wakeup = (boolean)document.getData().get("wakeup");
-                                                        Log.d("go3go2", document.getId() + " => " + user.email);
-                                                        Log.d("go3go---------------2", document.getId() + " => " + user.a);
 
 
 

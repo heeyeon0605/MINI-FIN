@@ -11,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class ConfigActivity extends AppCompatActivity implements View.OnClickListener {
-    FirebaseFirestore db = FirebaseFirestore.getInstance();
     TextView config_email;
     TextView config_name;
     Button config_logout;

@@ -30,13 +30,12 @@
                     android:layout_marginTop="15dp"
                     android:src="@drawable/search" />
             </LinearLayout>
-
             <TextView
                 android:id="@+id/textView28"
                 android:layout_width="match_parent"
                 android:layout_height="97dp"
-                android:gravity="bottom|center"
-                android:text="이번 주\n약속 하나를 달성하세요!"
+                android:gravity="center"
+                android:text="이번 주\n깔끔왕이 되어라"
                 android:textColor="#222"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -76,9 +75,9 @@
                     android:id="@+id/textView13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:text="7일 안에 미션 완료하기"
+                    android:paddingLeft="20dp"
+                    android:text="24시간 안에 미션 완료하기"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -113,13 +112,12 @@
 
                 <TextView
                     android:id="@+id/textView14"
-                    android:layout_width="357dp"
+                    android:layout_width="236dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginRight="30dp"
                     android:layout_weight="1"
                     android:paddingRight="30dp"
-                    android:text="친구와 약속 등록 후, 장소에 제 시간에 도착하기!"
+                    android:text="핸드폰 배경 화면 앱 폴더 별로 정리해서 캡쳐 화면 보내면 미션 성공!"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -155,9 +153,9 @@
                     android:id="@+id/textView15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:text="미션 성공 시, 신용 점수 +5점"
+                    android:paddingLeft="20dp"
+                    android:text="미션 성공 시, 신용 점수 +2점"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -171,7 +169,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/promise_accept"
+                    android:id="@+id/promise_accept4"
                     android:layout_width="110dp"
                     android:layout_height="55dp"
                     android:layout_marginBottom="15dp"
@@ -189,7 +187,7 @@
                     android:orientation="horizontal"></LinearLayout>
 
                 <Button
-                    android:id="@+id/promise_refuse"
+                    android:id="@+id/promise_refuse4"
                     android:layout_width="110dp"
                     android:layout_height="55dp"
                     android:layout_marginBottom="15dp"

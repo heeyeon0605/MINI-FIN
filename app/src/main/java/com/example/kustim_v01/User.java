@@ -7,10 +7,11 @@ public class User {
     public static String name;
     public static String phone;
     public static String uid;
+    public static String a;
     public static boolean promise;
     public static boolean wakeup;
     public static boolean money;
-    public static String a;
+    public static String score;
 
     public User() {
         // Default constructor required for calls to DataSnapshot.getValue(User.class)
